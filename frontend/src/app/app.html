@@ -1,0 +1,13 @@
+<nav style="background: #222; color: white; padding: 15px 30px; display: flex; gap: 20px; align-items: center; font-family: sans-serif;">
+  <strong style="font-size: 18px;">MeuApp 🚀</strong>
+  <a routerLink="/tarefas" routerLinkActive="ativo" style="color: white; text-decoration: none; padding: 5px 10px; border-radius: 5px;">Tarefas</a>
+  <a routerLink="/sobre" routerLinkActive="ativo" style="color: white; text-decoration: none; padding: 5px 10px; border-radius: 5px;">Sobre</a>
+</nav>
+
+<style>
+ .ativo { background: #444; }
+</style>
+
+<main style="padding: 30px;">
+  <router-outlet></router-outlet>
+</main>
